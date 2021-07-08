@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background=" #ececf9
+">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="50dp"
+        android:background="#002966"
+        android:paddingTop="10dp"
+        android:text="Fitness For Elderly"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="5dp"
+                android:text="Warm-Ups !!"
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="-42dp"
+                android:textStyle="bold"
+                android:text="Voice Assistance" />
+
+
+
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                app:autoPlay="false"
+                app:showFullScreenButton="true"
+                app:videoId="HB21F-PqVW4">
+
+            </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="379dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="15dp"
+                android:text="1-  Before exercising, it’s important to warm up your muscles and joints to prepare them to move and help prevent injury.
+                \n 2- This video can be a low-impact warm up or beginner workout for seniors and those new to exercise. It can be done in a chair or standing.
+"
+                android:textColor="#000000"
+                android:lineSpacingExtra="10dp"/>
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#002966"
+                android:text="Hire a Trainer" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="15dp"
+                android:onClick="contact"
+                android:src="@drawable/messg"
+                app:backgroundTint="#E91E63"
+                app:elevation="6dp"
+                app:fabSize="normal" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="Jog in Place - 1 Minute"
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="226dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/jogg">
+
+            </pl.droidsonroids.gif.GifImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="Light Squats - 1 Minute"
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="352dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/squats">
+
+            </pl.droidsonroids.gif.GifImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="Stretches - 1 Minute"
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="210dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/stretches">
+
+            </pl.droidsonroids.gif.GifImageView>
+
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="319dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#002966"
+                android:onClick="congrats"
+                android:text="Finish" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+

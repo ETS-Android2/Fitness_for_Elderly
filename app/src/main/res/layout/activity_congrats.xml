@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background=" #ececf9
+">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="50dp"
+        android:background="#002966"
+        android:paddingTop="10dp"
+        android:text="Fitness For Elderly"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/alegreya_sc_italic"
+                android:text="CONGRATULATIONS !!"
+                android:textColor="#002966"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="257dp"
+                android:layout_height="198dp"
+                android:layout_marginLeft="40dp"
+                app:srcCompat="@drawable/success" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="10dp"
+                android:text="You have completed today's gaols. Time for some Meal suggestions for you"
+                android:textAlignment="center"
+                android:textColor="#002966" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="Meal Plan - 1 "
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="10dp"
+                android:text="
+1- Cooked Oats \n
+2- Yougurt \n
+3- Power Toast
+
+"
+                android:textAlignment="gravity"
+                android:textColor="#002966" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="Meal Plan - 2 "
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="10dp"
+                android:text="
+1- Salat \n
+2- Omellete \n
+3- Juice
+
+"
+                android:textAlignment="gravity"
+                android:textColor="#002966" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:text="Meal Plan - 3 "
+                android:textColor="#002966"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="15dp"
+                android:lineSpacingExtra="10dp"
+                android:text="
+1- A hard boiled egg \n
+2- Cottage Fries \n
+3- Fruits
+
+"
+                android:textAlignment="gravity"
+                android:textColor="#002966" />
+
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="319dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#002966"
+                android:onClick="contact"
+                android:text="Contact Us" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
